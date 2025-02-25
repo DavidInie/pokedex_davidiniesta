@@ -2,4 +2,5 @@ body {
     font-family:"Pixelify Sans";
     text-align: center;
     padding: 20px;
+    background-image:url(./fondopokedex/kanto-map.jpeg);
   }
