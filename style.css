@@ -9,7 +9,8 @@ body {
     height: 90vh;
   }
 .POKEDEX{
-   background-color: rgba(0, 0, 0, 0.5); /* Fondo negro translúcido */
-   padding: 20px 40px;
-   border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo translúcido */
+    padding: 10px 30px;
+    border-radius: 15px; /* Bordes redondeados */
+    display: inline-block;
 }
