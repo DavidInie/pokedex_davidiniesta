@@ -7,6 +7,5 @@ body {
     padding: 0;
     background-size: cover;             /* 🏞️ La imagen ocupa toda la pantalla */
     background-position: center;        /* 🎯 Centrada */
-    background-repeat: no-repeat;       /* 🚫 Sin repetición */
     height: 100vh;
   }
