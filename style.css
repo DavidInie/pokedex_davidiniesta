@@ -1,11 +1,15 @@
 body {
     font-family:"Pixelify Sans";
+    color: white;
     text-align: center;
     padding: 20px;
     background-image:url(./fondopokedex/kanto-map.jpeg);
-    margin: 0;
-    padding: 0;
     background-size: cover;             
-    background-position: center;        
-    height: 100vh;
+    background-position: center;               
+    height: 90vh;
   }
+.POKEDEX{
+   background-color: rgba(0, 0, 0, 0.5); /* Fondo negro translúcido */
+   padding: 20px 40px;
+   border-radius: 20px;
+}
