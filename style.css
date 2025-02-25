@@ -1,11 +1,8 @@
 body {
-    font-family:"Pixelify Sans" ;
+    font-family:"Pixelify Sans";
     text-align: center;
     padding: 50px;
   }
-  pixelify-sans-<POKEDEX> {
-    font-family: "Pixelify Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+  pixelify-sans-{
+    font-family: "Pixelify Sans";
   }
