@@ -8,9 +8,16 @@ body {
     background-position: center;               
     height: 90vh;
   }
-.POKEDEX{
+#POKEDEX{
     background-color: rgba(0, 0, 0, 0.5); /* Fondo translúcido */
     padding: 10px 30px;
     border-radius: 15px; /* Bordes redondeados */
     display: inline-block;
+    font-size: 40px;
+}
+.pokedex-img {
+  position: absolute;
+  top: 100px;    /* Colorar la imagen */
+  left: 50px;    /* Mueve la imagen horizontalmente */
+  width: 350px;  /* Cambia el tamaño si es necesario */
 }
