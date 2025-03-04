@@ -54,10 +54,10 @@ body {
 
 #h1center {
   text-align: center;
-  background-color: rgba(86, 196, 255, 0.5);
+  background-color: rgba(246, 46, 169, 0.5);
   padding: 10px 30px;
   border-radius: 15px;
-  font-size: 35px;
+  font-size: 35px;  
   position: absolute; /* Cambiado a absoluto */
   left: 50%;
   transform: translate(-50%, -50%);
@@ -67,13 +67,13 @@ body {
 
 
 .contenido {
-  color: rgb(35, 49, 245);
+  color: rgb(252, 252, 255);
   position: absolute;
   top: 51%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bold;
   text-align: center; /* Centra el texto */
   display: inline-block; /* Hace que los elementos estén alineados */
@@ -86,11 +86,12 @@ body {
   vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
 }
 
-p {
+#p-cosmog{
   display: inline-block;
   vertical-align: middle; /* Alinea verticalmente el texto con la imagen */
-  margin-right: 10px; /* Espacio entre el texto y la imagen */
+  margin-right: 1px; /* Espacio entre el texto y la imagen */
   text-align: justify;
+  color:#ff0080;
 }
 
 .btn-psiquico {
@@ -106,12 +107,25 @@ p {
   display: inline-block;
   vertical-align: middle; /* Alinea verticalmente el botón con la imagen */
 }
+.btn-Inicio-cos {
+  background-color: rgb(246, 2, 214);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Pixelify Sans";
+  text-align: right;
+  margin-left: 10px; /* Espacio entre la imagen y el botón */
+  display: inline-block;
+  text-decoration: none;
+}
 
 #Cosmoem-img{
-  width: 330px;
+  width: 300px;
 }
 #Solgaleo-img{
-  width: 330px;
+  width: 300px;
 }
 
 
@@ -145,7 +159,7 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bold;
   text-align: center; /* Centra el texto */
   display: inline-block; /* Hace que los elementos estén alineados */
@@ -179,6 +193,19 @@ p {
   display: inline-block;
   vertical-align: middle; /* Alinea verticalmente el botón con la imagen */
 }
+.btn-Inicio-cha {
+  background-color: rgb(246, 2, 2);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Pixelify Sans";
+  text-align: right;
+  margin-left: 10px; /* Espacio entre la imagen y el botón */
+  display: inline-block;
+  text-decoration: none;
+}
 
 #Charmeleon-img{
   width: 300px;
@@ -187,4 +214,103 @@ p {
   width: 300px;
 }
 
+
+.gastly-pagina {
+  font-family:"Pixelify Sans";
+  padding: 20px;
+  background-image:url(./gastly/img/fondo.png);
+  background-size: cover;             
+  background-position: center;               
+  height: 90vh;
+}
+
+#h1centergas{
+  text-align: center;
+  background-color: rgba(218, 0, 181, 0.5);
+  padding: 10px 30px;
+  border-radius: 15px;
+  font-size: 35px;
+  position: absolute; /* Cambiado a absoluto */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3; /* Asegura que el texto esté encima */
+  font-family: "Pixelify Sans";
+}
+
+
+.contenido-gastly {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center; /* Centra el texto */
+  display: inline-block; /* Hace que los elementos estén alineados */
+}
+
+#img-gas {
+  margin-top: 100px;
+  width: 200px; /* Ajuste del tamaño de la imagen */
+  display: inline-block;
+  vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
+}
+
+#p-gastly {
+  display: inline-block;
+  vertical-align: middle; /* Alinea verticalmente el texto con la imagen */
+  margin-right: 10px; /* Espacio entre el texto y la imagen */
+  text-align: justify;
+  color: rgb(255, 255, 255);
+}
+
+.btn-fantasma {
+  background-color: rgb(53, 0, 75);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Pixelify Sans";
+  text-align: center;
+  margin-left: 10px; /* Espacio entre la imagen y el botón */
+  display: inline-block;
+  vertical-align: middle; /* Alinea verticalmente el botón con la imagen */
+}
+.btn-Veneno {
+  background-color: rgb(191, 81, 255);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Pixelify Sans";
+  text-align: center;
+  margin-left: 10px; /* Espacio entre la imagen y el botón */
+  display: inline-block;
+  vertical-align: middle; /* Alinea verticalmente el botón con la imagen */
+}
+.btn-Inicio {
+  background-color: rgb(191, 81, 255);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Pixelify Sans";
+  text-align: right;
+  margin-left: 10px; /* Espacio entre la imagen y el botón */
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+#Haunter-img{
+  width: 295px;
+}
+#Gengar-img{
+  width: 290px;
+}
 
