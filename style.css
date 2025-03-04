@@ -158,7 +158,7 @@ p {
   vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
 }
 
-p {
+#p-charmander {
   display: inline-block;
   vertical-align: middle; /* Alinea verticalmente el texto con la imagen */
   margin-right: 10px; /* Espacio entre el texto y la imagen */
@@ -186,3 +186,5 @@ p {
 #Charizard-img{
   width: 300px;
 }
+
+
