@@ -59,7 +59,6 @@ body {
   border-radius: 15px;
   font-size: 35px;
   position: absolute; /* Cambiado a absoluto */
- 
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3; /* Asegura que el texto esté encima */
@@ -113,4 +112,77 @@ p {
 }
 #Solgaleo-img{
   width: 330px;
+}
+
+
+.charmander-pagina {
+  font-family:"Pixelify Sans";
+  padding: 20px;
+  background-image:url(./charmander/img/pokemon-charmander-1l-1920x1200.jpg);
+  background-size: cover;             
+  background-position: center;               
+  height: 90vh;
+}
+
+#h1centercha {
+  text-align: center;
+  background-color: rgba(247, 20, 20, 0.5);
+  padding: 10px 30px;
+  border-radius: 15px;
+  font-size: 35px;
+  position: absolute; /* Cambiado a absoluto */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3; /* Asegura que el texto esté encima */
+  font-family: "Pixelify Sans";
+}
+
+
+.contenido-charmander {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center; /* Centra el texto */
+  display: inline-block; /* Hace que los elementos estén alineados */
+}
+
+#img-cha {
+  margin-top: 100px;
+  width: 180px; /* Ajuste del tamaño de la imagen */
+  display: inline-block;
+  vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
+}
+
+p {
+  display: inline-block;
+  vertical-align: middle; /* Alinea verticalmente el texto con la imagen */
+  margin-right: 10px; /* Espacio entre el texto y la imagen */
+  text-align: justify;
+  color: rgb(255, 0, 0);
+}
+
+.btn-fuego {
+  background-color: rgb(255, 34, 0);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Pixelify Sans";
+  text-align: center;
+  margin-left: 10px; /* Espacio entre la imagen y el botón */
+  display: inline-block;
+  vertical-align: middle; /* Alinea verticalmente el botón con la imagen */
+}
+
+#Charmeleon-img{
+  width: 300px;
+}
+#Charizard-img{
+  width: 300px;
 }
