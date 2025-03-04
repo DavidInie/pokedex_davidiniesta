@@ -1,3 +1,5 @@
+
+/*Inicio imagen fondo*/
 body {
     font-family:"Pixelify Sans";
     color: white;
@@ -34,6 +36,7 @@ body {
   font-weight: bold;  
 }
 
+/*Contenido cosmog*/
 .cosmog-pagina {
     font-family:"Pixelify Sans";
     padding: 20px;
@@ -69,11 +72,11 @@ body {
 .contenido {
   color: rgb(252, 252, 255);
   position: absolute;
-  top: 51%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   text-align: center; /* Centra el texto */
   display: inline-block; /* Hace que los elementos estén alineados */
@@ -120,7 +123,19 @@ body {
   display: inline-block;
   text-decoration: none;
 }
-
+.btn-Acero {
+  background-color: #545454;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Pixelify Sans";
+  text-align: center;
+  margin-left: 10px; /* Espacio entre la imagen y el botón */
+  display: inline-block;
+  vertical-align: middle; /* Alinea verticalmente el botón con la imagen */
+}
 #Cosmoem-img{
   width: 300px;
 }
@@ -128,6 +143,7 @@ body {
   width: 300px;
 }
 
+/*Contenido charmander*/
 
 .charmander-pagina {
   font-family:"Pixelify Sans";
@@ -214,6 +230,7 @@ body {
   width: 300px;
 }
 
+/*Contenido gastly*/
 
 .gastly-pagina {
   font-family:"Pixelify Sans";
