@@ -11,17 +11,17 @@ body {
     height: 90vh;
   }
 #POKEDEX{
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo translúcido */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo con transparencia */
     padding: 10px 30px;
-    border-radius: 15px; /* Bordes redondeados */
+    border-radius: 15px; /* Bordes redondos*/
     display: inline-block;
     font-size: 40px;
 }
 .pokedex-img {
   position: absolute;
-  top: 100px;    /* Colorar la imagen */
-  left: 50px;    /* Mueve la imagen horizontalmente */
-  width: 350px;  /* Cambia el tamaño si es necesario */
+  top: 100px;    
+  left: 50px;    /* Mueve la imagen horizontal */
+  width: 350px; 
 }
 
 #listpokemom{
@@ -46,13 +46,14 @@ body {
     height: 90vh;
   }
 .desenfoque {
+  /*desenfoco de la imagen de fondo*/
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   backdrop-filter: blur(2px);
-  background: rgba(0, 0, 0, 0.3); /* Oscurece un poco */
+  background: rgba(0, 0, 0, 0.3); 
 }
 
 #h1center {
@@ -61,10 +62,10 @@ body {
   padding: 10px 30px;
   border-radius: 15px;
   font-size: 35px;  
-  position: absolute; /* Cambiado a absoluto */
+  position: absolute; 
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 3; /* Asegura que el texto esté encima */
+  z-index: 3; /* Asegura que el texto esté encima de la imagen de fondo */
   font-family: "Pixelify Sans";
 }
 
@@ -262,7 +263,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   text-align: center; /* Centra el texto */
   display: inline-block; /* Hace que los elementos estén alineados */
